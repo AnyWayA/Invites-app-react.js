@@ -1,0 +1,26 @@
+.layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(206, 215, 234);
+}
+
+.app {
+    padding: 20px 25px;
+    width: 250px;
+    min-height: 180px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+    background-color: white;
+}
+
+.btn {
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+}

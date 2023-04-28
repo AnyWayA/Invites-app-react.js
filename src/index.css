@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+:root {
+  --primary: rgb(234, 110, 28);
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
